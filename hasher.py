@@ -5,7 +5,7 @@ import os
 import argparse
 
 doLog=True
-ignore_list=["Amagami","extras","title","backdrops"] #if these words are anywhere in the filepath it will be ignored
+ignore_list=["extras","title","backdrops"] #if these words are anywhere in the filepath it will be ignored
 
 def hamming(x,y):
 	return bin(int(x,16) ^ int(y,16)).count('1')
